@@ -1,0 +1,28 @@
+/* reset css */
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text&family=Montserrat&family=Poppins:wght@200;300&family=Unica+One&family=Voces&family=Volkhov&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+body .hero-section .hero-slogan {
+  line-height: 4.5rem;
+}
+body .hero-section .hero-p-text {
+  line-height: 2rem;
+}
+
+@media screen and (max-width: 765px) {
+  body .hero-section .hero-slogan {
+    line-height: 2.5rem;
+  }
+  body .hero-section .hero-p-text {
+    line-height: 2rem;
+  }
+}/*# sourceMappingURL=index.css.map */
